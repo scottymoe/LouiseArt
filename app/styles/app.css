@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300,300italic,400,700,700italic);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap);
 
 /**
  * Base Elements
@@ -21,12 +21,12 @@ div,
 span,
 a,
 button {
-  font-family: 'Lato', 'Open Sans', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.5;
 }
 
 body {
-  background: #f3f3f3;
+  background: #dec299;
 }
 
 a {
@@ -68,9 +68,9 @@ p {
  */
 
 .container {
-  max-width: 1024px;
+  max-width: 100vw;
   min-height: 100vh;
-  background: #f9f9f9;
+  background: #dec299;
   margin: 0 auto;
 }
 /**
@@ -81,28 +81,32 @@ p {
   height: 4em;
   background-color: #677ae4;
   background-color: #05526A;
-  background-color: #e46855;
+  background-color: #5e2810;
+  display: flex;
 }
 
 .menu h1 {
   position: relative;
   padding: 5px 0 0 8px;
-  color: #f9f9f9;
+  color: #dec299;
   font-size: 1.8em;
   font-style: italic;
 }
 
 .menu a,
 .menu .links {
-  display: inline-block;
+  
+  text-align: right;
+  justify-content: space-between
 }
 
 .menu a {
   text-decoration: none;
-  padding: 0 15px;
-  color: #fff;
+  padding: 0 0px;
+  color: #dec299;
   font-size: 20px;
   font-weight: bold;
+  text-align: right;
 }
 
 .menu a:hover,
@@ -111,11 +115,12 @@ p {
 }
 
 .menu .links {
-  padding: 0 21px;
+  padding: 0 100px;
+  text-align: right;
 }
 
 .menu .links a {
-  position: relative;
+  text-align: right;
   bottom: 5px;
 }
 
@@ -165,7 +170,7 @@ p {
   width: 215px;
   top: 54px;
   left: 10px;
-  background-color: #f6f6f6;
+  background-color: #dec299;
   border-right: 1px solid rgba(0, 0, 0, 0.05);
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
@@ -180,7 +185,7 @@ p {
 }
 
 .menu .results li:hover {
-  background: #f3f3f3;
+  background: #dec299;
 }
 /**
  * Content Area
@@ -195,16 +200,17 @@ p {
 
 .jumbo {
   padding: 50px;
-  background: #f6f6f6;
+  background: #dec299;
 }
 
 .jumbo:hover {
-  background-color: #f3f3f3;
+  background-color: #dec299;
 }
 
 .jumbo h2 {
   font-size: 3.2em;
   margin-top: -25px;
+  text-align: center;
 }
 
 .jumbo p,
@@ -467,7 +473,7 @@ p {
 }
 
 /**
- * Scott Stuff
+ * Scott's CSS
  */
 
  .square{
@@ -489,3 +495,29 @@ p {
   display: inline-block;
   
  }
+
+ .nav{
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background-color: #5e2810;
+  padding-top: 10px;
+  justify-content: space-between;
+  border-bottom: thin solid #606F8C;
+ }
+
+.nav a{
+  text-decoration: none;
+  color: #dec299;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav .links a{
+  text-decoration: none;
+  padding: 10px 15px 10px 0px;
+  color: #dec299;
+  font-size: 20px;
+  margin-top: 40px;
+  font-weight: bold;
+}
