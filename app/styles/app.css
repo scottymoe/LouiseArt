@@ -114,15 +114,15 @@ p {
   opacity: 1;
 }
 
-.menu .links {
+/* .menu .links {
   padding: 0 100px;
   text-align: right;
-}
+} */
 
-.menu .links a {
+/* .menu .links a {
   text-align: right;
   bottom: 5px;
-}
+} */
 
 .rentals label span {
   font-size: 140%;
@@ -211,6 +211,7 @@ p {
   font-size: 3.2em;
   margin-top: -25px;
   text-align: center;
+  color: #884310;
 }
 
 .jumbo p,
@@ -453,17 +454,6 @@ p {
   position: relative;
 }
 
-.tomster {
-  background: url(../assets/images/aspen.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 200px;
-  width: 200px;
-
-  position: relative;
-  top: -25px;
-}
-
 .screen-reader{
   position: absolute;
   overflow: hidden;
@@ -497,27 +487,41 @@ p {
  }
 
  .nav{
-  display: flex;
   width: 100%;
   height: 60px;
   background-color: #5e2810;
-  padding-top: 10px;
-  justify-content: space-between;
-  border-bottom: thin solid #606F8C;
  }
 
-.nav a{
-  text-decoration: none;
-  color: #dec299;
-  font-size: 20px;
-  font-weight: bold;
+ .nav a:hover {
+  background-color: #cc762f;
+  color: #5e2810;
 }
 
-.nav .links a{
-  text-decoration: none;
-  padding: 10px 15px 10px 0px;
+.nav a{
+  float: left;
   color: #dec299;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
   font-size: 20px;
-  margin-top: 40px;
-  font-weight: bold;
+  font-weight: ;
+
+}
+
+.nav-right {
+  float: right
+}
+.artbox {
+  background: url(../assets/images/aspen.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  top: -25px;
+  border: 10px solid #cc762f;
+}
+
+.arttext{
+  display: block;
 }
