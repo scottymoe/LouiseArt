@@ -1,7 +1,6 @@
-# louise-art
+#LouiseArt
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This was my first project using ember. At the time that I started this I was applying for jobs that required me to learn ember. Since I didn't have much experience with ember, this was my attempt at testing the things I learned from the official tutorial. This website ended up not getting launched due to scheduling conflicts, but it gave me a taste for using some of the more basic tools of emberjs. It was originally designed to showcase my sisters wood burning art and be a ecommerce website, but it ended up being more of a outline. Thanks for viewing! 
 
 ## Prerequisites
 
